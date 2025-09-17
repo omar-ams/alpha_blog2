@@ -1,0 +1,19 @@
+current directory: /home/protege/Desktop/rails_practice/alpha-blog2/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+/home/protege/.rbenv/versions/3.4.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/protege/Desktop/rails_practice/alpha-blog2/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250917-327957-co5med sitelibdir\=./.gem.20250917-327957-co5med clean
+
+current directory: /home/protege/Desktop/rails_practice/alpha-blog2/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250917-327957-co5med sitelibdir\=./.gem.20250917-327957-co5med
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/protege/Desktop/rails_practice/alpha-blog2/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250917-327957-co5med sitelibdir\=./.gem.20250917-327957-co5med install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20250917-327957-co5med/debug
+
+current directory: /home/protege/Desktop/rails_practice/alpha-blog2/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250917-327957-co5med sitelibdir\=./.gem.20250917-327957-co5med clean
