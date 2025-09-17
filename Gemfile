@@ -57,11 +57,6 @@ group :production do
 end
 
 
-group :test do
-  # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
-  gem "capybara"
-  gem "selenium-webdriver"
-end
 
 gem "pry", "~> 0.15.2"
 gem "pry-rails", "~> 0.3.11"
