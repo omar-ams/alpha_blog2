@@ -1,0 +1,40 @@
+<h1> Listing des articles </h1>
+
+<p>
+<%= link_to "Crer un nouvel article", new_article_path %>
+
+    </p>
+
+<table>
+    <tr>
+                <th> ID </th>
+
+        <th> Titre </th>
+        <th> Description </th>
+
+    </tr>
+
+    <% @article.each do |article| %>
+        <tr>
+                        <td> 
+                <%= article.id %>
+             </td>
+            <td> 
+                <%= article.title %>
+             </td>
+            <td> 
+                <%= article.description %>
+             </td>
+             <td> 
+                <%= link_to "éditer", edit_article_path(article) %>
+             </td>
+                          <td> 
+                <%= link_to "afficher", article_path(article) %>
+             </td>
+             
+        </tr>
+    <% end %>
+
+</table>
+
+<%= link_to "Retour à la liste", articles_path%>

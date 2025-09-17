@@ -2,3 +2,6 @@
 <p> 
     <%= @article.description%>
 </p>
+<%= link_to "Editer", edit_article_path(@article)%> |
+
+<%= link_to "Retour à la liste", articles_path%>
