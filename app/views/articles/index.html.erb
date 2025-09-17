@@ -31,7 +31,9 @@
                           <td> 
                 <%= link_to "afficher", article_path(article) %>
              </td>
-             
+                                       <td> 
+<%= button_to "supprimer", article_path(article), method: :delete, data: { confirm: "Tu es sûr ?" } %>
+             </td>
         </tr>
     <% end %>
 
